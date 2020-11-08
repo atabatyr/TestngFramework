@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite 2" verbose="2" >
+    <test name="Login Tests2" >
+        <classes>
+            <class name="com.techproed.smoketest.KaolaLogin"></class>
+            <class name="com.techproed.excelautomation.WriteExcel"/>
+            <class name="com.techproed.smoketest.NegativeTest"></class>
+            <class name="com.techproed.tests.FaceLogin"></class>
+
+        </classes>
+    </test>
+</suite>
